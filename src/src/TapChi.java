@@ -1,6 +1,8 @@
 public class TapChi extends TaiLieu{
     private int soPhatHanh;
     private int thangPhatHanh;
+
+    // Constructor
     public TapChi(int soPhatHanh , int thangPhatHanh, int maTL, String tenNXB, int soNXB){
         super( maTL, tenNXB, soNXB);
         this.soPhatHanh = soPhatHanh;
@@ -15,4 +17,22 @@ public class TapChi extends TaiLieu{
     }
 
 
+
+
+    // Getter and Setter
+    public int getSoPhatHanh() {
+        return soPhatHanh;
+    }
+
+    public int getThangPhatHanh() {
+        return thangPhatHanh;
+    }
+
+    public void setSoPhatHanh(int soPhatHanh) {
+        this.soPhatHanh = soPhatHanh;
+    }
+
+    public void setThangPhatHanh(int thangPhatHanh) {
+        this.thangPhatHanh = thangPhatHanh;
+    }
 }

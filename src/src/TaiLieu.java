@@ -3,11 +3,25 @@ public class TaiLieu {
     private String tenNXB;
     private int soNXB;
 
+    // Constructor
+
     public TaiLieu(int maTL, String tenNXB, int soNXB) {
         this.maTL = maTL;
         this.tenNXB = tenNXB;
         this.soNXB = soNXB;
     }
+
+    public String layThongTinNguoiMuon(){
+        return "Nguyễn Xuân Huy";
+    }
+
+    public String thongBaoThuHoiTailieu(){
+        return "Thu hồi tài liệu";
+    }
+    public String nhanLaiTailieu(){
+        return "Nhận lại tài liệu";
+    }
+
 
     public void inthongTin() {
         System.out.println("Mã Tài Liệu : " + maTL);
@@ -15,6 +29,9 @@ public class TaiLieu {
         System.out.println("số bản phát hành : " + soNXB);
     }
 
+
+
+    // Getter and Setter
     public void setMaTL(int maTL) {
         this.maTL = maTL;
     }

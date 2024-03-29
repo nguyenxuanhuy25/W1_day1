@@ -2,6 +2,8 @@ public class Sach extends TaiLieu {
     private String tentacgia;
     private int sotrang;
 
+
+    // Constructor
     public Sach(int maTL, String tenNXB, int soNXB,String tentacgia, int sotrang) {
         super( maTL, tenNXB, soNXB);
         this.tentacgia = tentacgia;
@@ -16,6 +18,8 @@ public class Sach extends TaiLieu {
     }
 
 
+
+    // Getter and Setter
     public void setTentacgia(String tentacgia) {
         this.tentacgia = tentacgia;
     }
