@@ -8,7 +8,9 @@ public class Bienlaidientu {
         this.thongTinNguoiMuon = thongTinNguoiMuon;
     }
 
-
+    public String layThongTinNguoiMuon(){
+        return "Thông tin người mượn : "  ;
+    }
 
 
 

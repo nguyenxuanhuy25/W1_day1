@@ -8,7 +8,7 @@ public class Bao extends  TaiLieu{
     }
 
     @Override
-    public void inthongTin() {
+    public void inThongTin() {
         System.out.println("Ngày Phát hành : " + ngayPhatHanh);
 
     }

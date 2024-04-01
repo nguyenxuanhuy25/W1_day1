@@ -22,8 +22,8 @@ public class TaiLieu {
         return "Nhận lại tài liệu";
     }
 
-
-    public void inthongTin() {
+    // in thông tin
+    public void     inThongTin() {
         System.out.println("Mã Tài Liệu : " + maTL);
         System.out.println("Tên Nhà xuất bản : " + tenNXB);
         System.out.println("số bản phát hành : " + soNXB);

@@ -1,11 +1,11 @@
 public class ThongTinCaNhan {
-    private String ten;
+    private String tenNguoiDung;
     private String diaChi;
     private int sDt;
 
     // Constructor
-    public ThongTinCaNhan(String ten, String diaChi, int sDt) {
-        this.ten = ten;
+    public ThongTinCaNhan(String tenNguoiDung, String diaChi, int sDt) {
+        this.tenNguoiDung = tenNguoiDung;
         this.diaChi = diaChi;
         this.sDt = sDt;
     }
@@ -17,24 +17,25 @@ public class ThongTinCaNhan {
 
 
     // Getter và Setter
-    public String getTen() {
-        return ten;
+
+    public String getTenNguoiDung() {
+        return tenNguoiDung;
+    }
+
+    public void setTenNguoiDung(String tenNguoiDung) {
+        this.tenNguoiDung = tenNguoiDung;
     }
 
     public String getDiaChi() {
         return diaChi;
     }
 
-    public int getsDt() {
-        return sDt;
-    }
-
-    public void setTen(String ten) {
-        this.ten = ten;
-    }
-
     public void setDiaChi(String diaChi) {
         this.diaChi = diaChi;
+    }
+
+    public int getsDt() {
+        return sDt;
     }
 
     public void setsDt(int sDt) {

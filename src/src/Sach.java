@@ -1,38 +1,39 @@
 public class Sach extends TaiLieu {
-    private String tentacgia;
-    private int sotrang;
+    private String tenTacgia;
+    private int soTrang;
 
 
     // Constructor
-    public Sach(int maTL, String tenNXB, int soNXB,String tentacgia, int sotrang) {
+    public Sach(int maTL, String tenNXB, int soNXB,String tenTacgia, int soTrang) {
         super( maTL, tenNXB, soNXB);
-        this.tentacgia = tentacgia;
-        this.sotrang = sotrang;
+        this.tenTacgia = tenTacgia;
+        this.soTrang = soTrang;
     }
 
     @Override
-    public void inthongTin() {
-        System.out.println("Tên Tác Giả : " + tentacgia);
-        System.out.println("Số Trang : " + sotrang);
+    public void inThongTin() {
+        System.out.println("Tên Tác Giả : " + tenTacgia);
+        System.out.println("Số Trang : " + soTrang);
 
     }
 
 
 
     // Getter and Setter
-    public void setTentacgia(String tentacgia) {
-        this.tentacgia = tentacgia;
+
+    public String getTenTacgia() {
+        return tenTacgia;
     }
 
-    public void setSotrang(int sotrang) {
-        this.sotrang = sotrang;
+    public void setTenTacgia(String tenTacgia) {
+        this.tenTacgia = tenTacgia;
     }
 
-    public String getTentacgia() {
-        return tentacgia;
+    public int getSoTrang() {
+        return soTrang;
     }
 
-    public int getSotrang() {
-        return sotrang;
+    public void setSoTrang(int soTrang) {
+        this.soTrang = soTrang;
     }
 }

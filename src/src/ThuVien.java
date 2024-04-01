@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 
 public class ThuVien {
@@ -12,7 +13,7 @@ public class ThuVien {
 
     public void inDanhSachTaiLieu(){
         for (TaiLieu t1 : danhSachTaiLieu){
-            t1.inthongTin();
+            t1.inThongTin();
             System.out.println("-------------------------");
         }
     }

@@ -2,14 +2,16 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-       ThuVien thuVien = new ThuVien();
-       Sach sach1 = new Sach(212 , "Nguyễn Xuân Huy", 44, "Trần Nam" , 330);
-       Sach sach2 = new Sach(512 , " Anh Khoa", 43, "Long", 600);
+        ThuVien thuVien = new ThuVien();
+        Sach sach1 = new Sach(212, "Nguyễn Xuân Huy", 44, "Trần Nam", 330);
+        Sach sach2 = new Sach(512, " Anh Khoa", 43, "Long", 600);
 
+        TaiLieu taiLieu1 = new TaiLieu(333, "Cửu Long", 9029);
 
-       thuVien.themTailieu(sach1);
-       thuVien.themTailieu(sach2);
+        thuVien.themTailieu(sach1);
+        thuVien.themTailieu(sach2);
+        thuVien.themTailieu(taiLieu1);
 
-       thuVien.inDanhSachTaiLieu();
+        thuVien.inDanhSachTaiLieu();
     }
 }

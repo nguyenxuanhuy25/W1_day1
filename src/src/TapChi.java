@@ -10,7 +10,7 @@ public class TapChi extends TaiLieu{
     }
 
     @Override
-    public void inthongTin() {
+    public void inThongTin() {
         System.out.println("Số Phát Hành : " + soPhatHanh);
         System.out.println("Tháng Phát Hành : " + thangPhatHanh);
 
